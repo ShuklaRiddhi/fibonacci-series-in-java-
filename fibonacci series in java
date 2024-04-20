@@ -1,0 +1,28 @@
+program of fibonacci series
+solution ->
+public class fibo {
+public static void main(string[] args) 
+{
+scanner in = new scanner(system.in);
+int n = in.nextInt();
+int a = 0;
+int b = 1;
+int count = 2; 
+while (count <= n) {
+ int temp = b;
+b = b + a;
+a = temp;
+count++;
+}
+sysyem.out.println(b);
+}
+}
+
+
+
+
+
+
+
+
+  
